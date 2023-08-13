@@ -1,6 +1,6 @@
 <template>
     <div class="card">
-        <img class="image" :src="require(`@/assets/images/${card.image || 'zaib-tse-KVv5lFOMY1E-unsplash.jpg'}`)" alt="">
+        <img class="image" :src="require(`@/assets/images/${card.image || 'zaib-tse-KVv5lFOMY1E-unsplash.jpg'}`)" alt="fresh fruit">
         <h3 class="header">{{ card.title }}</h3>
         <p class="snippet">
             {{card.snippet }}
